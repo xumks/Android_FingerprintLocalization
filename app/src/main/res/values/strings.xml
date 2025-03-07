@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Indoor Map</string>
+
+    <string name="picked_content_is">当前选择的是：</string>
+    <string name="F1">F1</string>
+    <string name="F2">F2</string>
+    <string name="F3">F3</string>
+    <string name="F4">F4</string>
+    <string name="NMBF6">F6</string>
+    <string name="NMBF7">F7</string>
+    <string name="NMBD10">D10</string>
+    <string name="TESTF6">T6</string>
+    <string name="TESTF5">T5</string>
+    <string name="reset">Reset</string>
+    <string name="locate">Locate</string>
+    <string name="connect">Connect</string>
+    <string name="defaultIP">192.168.0.143</string>
+    <string name="defaultPort">8000</string>
+    <string name="defaultPortText">Port：</string>
+    <string name="defaultIPText">IP：</string>
+    <string name="defaultConnectText">请输入服务器IP地址及其端口号</string>
+    <string name="chooseFingerprintDB">请选择指纹库</string>
+    <string name="result">结果</string>
+    <string name="height">高度</string>
+    <string name="orient">航向</string>
+    <string name="stepNums">步数</string>
+    <string name="wifiStatus">状态</string>
+    <string name="connectStatus">通信</string>
+    <string name="DB1">Database 1</string>
+    <string name="DB2">Database 2</string>
+    <string name="DB3">Database 3</string>
+    <string name="DB4">Database 4</string>
+    <string name="DB5">Database 5</string>
+    <string name="DB6">Database 6</string>
+    <string name="save">Save</string>
+    <string name="permission_change_wifi_rationale">需要打开Wi-Fi定位</string>
+    <string name="button_allow">打开</string>
+    <string name="button_deny">取消</string>
+    <string name="permission_change_wifi_denied">拒绝打开WiFi</string>
+    <string name="permission_change_wifi_neverask">不再询问打开WiFi</string>
+    <string name="go_setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="permission_title">打开WiFi</string>
+
+    <string-array name="floor_name">
+        <item>@string/F1</item>
+        <item>@string/F2</item>
+        <item>@string/F3</item>
+        <item>@string/F4</item>
+        <item>@string/NMBF6</item>
+        <item>@string/NMBF7</item>
+        <item>@string/TESTF6</item>
+        <item>@string/TESTF5</item>
+        <item>@string/NMBD10</item>
+    </string-array>
+
+    <string-array name="fingerprint_database">
+        <item>@string/DB1</item>
+        <item>@string/DB2</item>
+        <item>@string/DB3</item>
+        <item>@string/DB4</item>
+        <item>@string/DB5</item>
+        <item>@string/DB6</item>
+    </string-array>
+
+
+    <integer name="showCount">4</integer>
+
+
+
+</resources>

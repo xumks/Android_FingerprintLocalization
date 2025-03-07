@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/fingerprintText"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseFingerprintDB"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <cn.carbswang.android.numberpickerview.library.NumberPickerView
+        android:id="@+id/pickerFingerprintDB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fingerprintText"
+        android:background="@color/pickerBackground"
+        app:npv_DividerColor="@color/colorDivider"
+        app:npv_ItemPaddingHorizontal="20dp"
+        app:npv_ItemPaddingVertical="20dp"
+        app:npv_ShowCount="3"
+        app:npv_TextColorNormal="@color/colorNormal"
+        app:npv_TextColorSelected="@color/colorSelected"
+        app:npv_TextSizeNormal="14sp"
+        app:npv_TextSizeSelected="16sp"
+        app:npv_WrapSelectorWheel="false" />
+
+
+
+
+
+
+
+</RelativeLayout>

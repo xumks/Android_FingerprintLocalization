@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+
+    <com.linchisin.fingerprintlocalization.ui.MapView
+        android:id="@+id/stepView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:text="@string/result" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/heightText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="left"-->
+<!--        android:layout_below="@id/resultText"-->
+<!--        android:text="@string/height"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/orientText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="left"-->
+<!--        android:layout_below="@id/heightText"-->
+<!--        android:text="@string/orient"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/stepText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="left"-->
+<!--        android:layout_below="@id/orientText"-->
+<!--        android:text="@string/stepNums"/>-->
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultText"
+        android:gravity="left"
+        android:text="@string/wifiStatus" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/connectionText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_below="@+id/statusText"-->
+<!--        android:gravity="left"-->
+<!--        android:text="@string/connectStatus" />-->
+
+    <cn.carbswang.android.numberpickerview.library.NumberPickerView
+        android:id="@+id/picker"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:background="@color/pickerBackground"
+        app:npv_DividerColor="@color/colorDivider"
+        app:npv_ItemPaddingHorizontal="5dp"
+        app:npv_ItemPaddingVertical="5dp"
+        app:npv_ShowCount="3"
+        app:npv_TextColorNormal="@color/colorNormal"
+        app:npv_TextColorSelected="@color/colorSelected"
+        app:npv_TextSizeNormal="14sp"
+        app:npv_TextSizeSelected="16sp"
+        app:npv_WrapSelectorWheel="false" />
+
+    <ImageView
+        android:id="@+id/locate"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/buttonstate_transparent"
+        android:contentDescription="@string/locate"
+        android:src="@drawable/locate" />
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/locate"
+        android:layout_alignLeft="@+id/locate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/locate"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/buttonstate_transparent"
+        android:contentDescription="@string/reset"
+        android:src="@drawable/reset" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/save"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignTop="@+id/locate"-->
+<!--        android:background="@drawable/buttonstate_transparent"-->
+<!--        android:contentDescription="@string/save"-->
+<!--        android:src="@drawable/save" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/connect"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignTop="@+id/reset"-->
+<!--        android:background="@drawable/buttonstate_transparent"-->
+<!--        android:contentDescription="@string/connect"-->
+<!--        android:src="@drawable/connect" />-->
+
+
+</RelativeLayout>

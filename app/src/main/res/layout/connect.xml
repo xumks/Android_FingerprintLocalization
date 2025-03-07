@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/msgTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultConnectText"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        />
+	<TextView
+        android:id="@+id/ipTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultIPText"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/msgTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <EditText
+        android:id="@+id/ipEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ipTextView"
+        android:hint="@string/defaultIP"
+        />
+    <TextView
+        android:id="@+id/portTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultPortText"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/ipEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <EditText
+        android:id="@+id/portEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/portTextView"
+        android:hint="@string/defaultPort"
+        />
+
+</RelativeLayout>
